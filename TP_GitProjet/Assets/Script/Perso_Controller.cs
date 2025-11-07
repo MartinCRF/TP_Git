@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Perso_Controller : MonoBehaviour
 {
+    [SerializeField] float _hahah = 0.1f;
 
     [SerializeField] private float _damage = 10f;
     [SerializeField] private float _speedShoot = 25f;
